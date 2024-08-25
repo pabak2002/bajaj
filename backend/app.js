@@ -6,8 +6,8 @@ const app = express();
 app.use(express.json());
 
 // Root route to send a simple message
-app.get("/", (req, res) => {
-  res.send("Hello, World!");
+app.get("/bfhl", (req, res) => {
+ res.json( {"operation_code":1})
 });
 
 // Route for the /bfhl POST request
