@@ -1,5 +1,14 @@
 {
+  "name": "my-backend",
+  "version": "1.0.0",
+  "description": "My Node.js backend project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
-    "express": "^4.19.2"
-  }
+    "express": "^4.18.2"
+  },
+  "author": "Your Name",
+  "license": "ISC"
 }
